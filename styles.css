@@ -1,0 +1,217 @@
+.body-main {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: #222629;
+}
+
+.header-main {
+  background-color: #222629;
+  color: #f9f9f9;
+  padding: 5px;
+  font-family: "Bahnschrift Condensed", "Times New Roman", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.header-image {
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.button {
+  font-family: "Bahnschrift Condensed", "Times New Roman", sans-serif;
+  display: flex;
+  background-color: #86c232;
+  border: 10px;
+  text-decoration: none;
+  font-size: 250%;
+  color: #ffffff;
+}
+
+.button:hover {
+  font-family: "Bahnschrift Condensed", "Times New Roman", sans-serif;
+  display: flex;
+  background-color: #61892f;
+  border: 10px;
+  text-decoration: none;
+  font-size: 250%;
+  color: #ffffff;
+}
+
+.label-menu {
+  position: relative;
+  display: block;
+  height: 50px;
+  width: 60px;
+}
+
+.sound-IMG {
+  width: 50px;
+  height: 50px;
+}
+
+.p-pos {
+  text-align: center;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.table-header,
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.table-header {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.bird-card {
+  background: white;
+  border: 1px;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 15px;
+  float: center;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nameOfBird {
+  color: #86c232;
+  margin-top: 100px;
+  padding: 0px;
+  font-size: 500%;
+  line-height: 30%;
+  margin-bottom: auto;
+  text-align: center;
+  font-family: "Bahnschrift Condensed", "Times New Roman", sans-serif;
+}
+
+.rating-bird,
+.rating-bronse-bird,
+.rating-silver-bird,
+.rating-gold-bird {
+  font-size: 300%;
+  line-height: 30%;
+  text-align: center;
+  font-family: "Bahnschrift Condensed", "Times New Roman", sans-serif;
+}
+
+.rating-bird {
+  color: #ececec;
+}
+
+.rating-bronse-bird {
+  color: #cd7f32;
+}
+
+.rating-silver-bird {
+  color: #c0c0c0;
+}
+
+.rating-gold-bird {
+  color: #ffd700;
+}
+
+.bird-photo {
+  max-width: 30%;
+  height: auto;
+  user-select: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-ul-li {
+  display: inline-flex;
+  margin: 10px;
+  font-size: 250%;
+  align-content: center;
+}
+
+.nav-ul-li-a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-ul-li-a:hover {
+  color: #86c232;
+}
+
+.footer-main {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .nav-ul-li {
+    display: inline-flex;
+    margin: 10px;
+    font-size: 4vw;
+  }
+  .header-image {
+    max-width: 20vw;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  .nameOfBird {
+    color: #86c232;
+    margin-top: 50px;
+    padding: 0px;
+    font-size: 7vw;
+    line-height: 30%;
+    margin-bottom: auto;
+    text-align: center;
+    font-family: "Bahnschrift Condensed", "Times New Roman", sans-serif;
+  }
+  .bird-photo {
+    max-width: 50%;
+    height: auto;
+    user-select: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rating-bird,
+  .rating-bronse-bird,
+  .rating-silver-bird,
+  .rating-gold-bird {
+    font-size: 5vw;
+    line-height: 30%;
+    text-align: center;
+    font-family: "Bahnschrift Condensed", "Times New Roman", sans-serif;
+  }
+  .label-menu {
+    position: relative;
+    display: block;
+    height: 25px;
+    width: 30px;
+  }
+  .button {
+    font-family: "Bahnschrift Condensed", "Times New Roman", sans-serif;
+    display: flex;
+    background-color: #86c232;
+    border: 10px;
+    text-decoration: none;
+    font-size: 150%;
+    color: #ffffff;
+  }
+}
